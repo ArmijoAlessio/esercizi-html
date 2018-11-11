@@ -1,0 +1,37 @@
+#orange{
+	background-color: orange;
+	border: 2px solid black;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 0px;
+	}
+	#hf{
+	display: inline-block;
+	background-color: lightblue;
+	border: 2px solid black;
+	padding: 10px;
+	margin-left: 0px;
+	width: 245px;
+	
+	}
+	#d1{
+	margin-top: 20px;
+	margin-left: 30px;
+	display: inline-block;
+	float: right;
+	}
+	#foo{
+	text-align: center;
+	width: 270px;
+	background-color: lightblue;
+	border: 2px solid black;
+	padding: 10px;
+	margin-left: 0px;
+	font-size: 30px;
+	}
+	.main{
+	margin-top: 0px;
+	float: left;
+	}
