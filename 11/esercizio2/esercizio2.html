@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		ul{
+			list-style-type: none;
+			margin:0px;
+			padding:0px;
+			width:25%;
+			position:fixed;
+			height:100%;
+			overflow:auto;
+			background-color:LightGray;
+		}
+		li a{
+			padding:5px 10px;
+			display:block;
+			color:#000;
+			text-decoration:none;
+		}
+		li a:hover:not(.active){
+			background-color:gray;
+			color:white;
+		}
+		li a.active {
+        background-color: green;
+        color: white;
+        }
+		iframe{
+				position: absolute;
+				width: 75%;
+				left: 25%;
+				height:100%;
+				border: none;
+				padding:3px;
+			}
+		</style>
+		</head>
+	
+	<body>
+	<ul>
+		<li><a class="active" href="pagina1.html" target="testo">Primo</a></li>
+		<li><a href="pagina2.html" target="testo">Secondo</a></li>
+		<li><a href="pagina3.html" target="testo">Terzo</a></li>
+	</ul>
+	
+		<iframe name="testo" src="pagina1.html" ></iframe>
+		
+
+	</body>
+</html>
